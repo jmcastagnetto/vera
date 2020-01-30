@@ -10,7 +10,7 @@
 vera
 }
 \description{
-This package containes the complete list
+This package contains the complete list
 of computer acronyms from the "Virtual Entity of Relevant Acronyms" (VERA).
 }
 \details{
