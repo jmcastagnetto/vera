@@ -13,4 +13,20 @@ The dataset in this package was built from the latest version at this time, date
 devtools::install_github("jmcastagnetto/vera")
 ```
 
-License: MIT
+
+## Use
+
+I added a simple function to retrieve the definitions of an acronym. It is very simple-minded and if there is no match, the returned dataframe is empty.
+
+```r
+> library(vera)
+> get_definitions("RFP")$definition
+[1] "Request for Package (Linux, Debian)"
+[2] "Request For Proposal (Internet)"
+> get_definitions("dag") # strings are always uppercased
+     acronym                    definition
+2327     DAG            DatenAnschaltGerät
+2328     DAG Directed Acyclic Graph (NVSG)
+```
+
+**License: MIT**
