@@ -29,7 +29,7 @@ I added a simple function to retrieve the definitions of an acronym. It is very 
 2328     DAG Directed Acyclic Graph (NVSG)
 ```
 
-# Motivation
+## Motivation
 
 Made this package to start grokking how to this in R, and the article on this topic by Erik Howard ["How to Create an R Data Package "](https://www.erikhoward.net/how-to-create-an-r-data-package/) was very helpful.
 
