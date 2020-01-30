@@ -1,0 +1,21 @@
+Package: vera
+Type: Package
+Title: The Dataset "Virtual Entity of Relevant Acronyms" (VERA)
+Version: 0.1.0
+Authors@R: 
+    person(given = "Jesus",
+           family = "Castagnetto",
+           role = c("aut", "cre"),
+           email = "jesus@castagnetto.com",
+           comment = c(ORCID = "0000-0002-7188-1605"))
+Maintainer: Jesus Castagnetto <jesus@castagnetto.com>
+Description: This package contains the VERA list of 
+  computer acronyms. Data generated from the last updated files (2016-10-31)
+  at the original source (https://www.ohei2.de/vera/vueber-e.html).
+Depends:
+  R (>= 2.10)
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+URL: 
+RoxygenNote: 7.0.2
