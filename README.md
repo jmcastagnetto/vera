@@ -1,10 +1,10 @@
 # The VERA dataset
 
-This simple package contains the acronyms and definitions from the VERA list (Virtual Entity of Relevant Acronyms).
+This simple package contains the acronyms and definitions from the VERA list (Virtual Entity of Relevant Acronyms). 
 
-The original maintainer of the VERA list is Oliver Heidelbach, and you can find the source and more information at: https://www.ohei2.de/vera/vueber-e.html
+The dataset has been generated using the ASCII version of the list available in https://www.ohei2.de/vera/vueber-e.html. That list was created and is maintained by Oliver Heidelbach. 
 
-The dataset in this package was built from the latest version at this time, dated 2016-10-31.
+The [latest version of the ASCII VERA list at this time is dated 2016-10-31](https://www.ohei2.de/FTP/).
 
 ## Installation
 
@@ -12,7 +12,6 @@ The dataset in this package was built from the latest version at this time, date
 # install.packages("devtools")
 devtools::install_github("jmcastagnetto/vera")
 ```
-
 
 ## Use
 
