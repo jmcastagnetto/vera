@@ -1,8 +1,8 @@
 # The VERA dataset
 
-This simple package contains the acronyms and definitions from the VERA list (Virtual Entity of Relevant Acronyms). 
+This simple package contains the acronyms and definitions from the VERA list (Virtual Entity of Relevant Acronyms).
 
-The dataset has been generated using the ASCII version of the list available in https://www.ohei2.de/vera/vueber-e.html. That list was created and is maintained by Oliver Heidelbach. 
+The dataset has been generated using the ASCII version of the list available in https://www.ohei2.de/vera/vueber-e.html. That list was created and is maintained by Oliver Heidelbach.
 
 The [latest version of the ASCII VERA list at this time is dated 2016-10-31](https://www.ohei2.de/FTP/).
 
@@ -30,6 +30,6 @@ I added a simple function to retrieve the definitions of an acronym. It is very 
 
 ## Motivation
 
-Made this package to start grokking how to this in R, and the article on this topic by Erik Howard ["How to Create an R Data Package "](https://www.erikhoward.net/how-to-create-an-r-data-package/) was very helpful.
+Made this package to start grokking how to do this in R. Also, the article on creating a data package by Erik Howard ["How to Create an R Data Package "](https://www.erikhoward.net/how-to-create-an-r-data-package/) was very helpful.
 
 **License: MIT**
